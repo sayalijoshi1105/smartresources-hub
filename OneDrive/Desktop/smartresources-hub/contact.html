@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — SmartResources Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span class="brand-text"><h1>SmartResources Hub</h1><div class="brand-tagline">LEARN &middot; APPLY &middot; GROW</div></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="recommendations.html">Resources</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="auth.html" class="btn btn-primary">Login</a>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container" style="padding:56px 32px 40px;">
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;">
+    <div>
+      <p style="letter-spacing:0.1em; font-weight:600; color:var(--primary); font-size:0.78rem;">GET IN TOUCH</p>
+      <h1 style="font-size:2.2rem; margin-bottom:14px;">We'd love to hear from you.</h1>
+      <p class="muted" style="margin-bottom:28px;">Questions about a scheme, a bug to report, or a resource we should add? Send us a message and the team will get back to you.</p>
+
+      <div style="display:flex; flex-direction:column; gap:18px;">
+        <div style="display:flex; gap:12px; align-items:center;">
+          <span class="resource-icon" style="background:var(--primary-subtle); color:var(--primary); margin:0;">&#9993;</span>
+          <div><strong style="display:block;">Email</strong><span class="muted">support@smartresourceshub.in</span></div>
+        </div>
+        <div style="display:flex; gap:12px; align-items:center;">
+          <span class="resource-icon" style="background:var(--primary-subtle); color:var(--primary); margin:0;">&#128172;</span>
+          <div><strong style="display:block;">Response Time</strong><span class="muted">Usually within 2 business days</span></div>
+        </div>
+      </div>
+    </div>
+
+    <form class="card" style="padding:32px;" id="contactForm" novalidate>
+      <div class="field">
+        <label for="cName">Full Name <span class="req">*</span></label>
+        <input type="text" id="cName" required placeholder="Your full name">
+      </div>
+      <div class="field">
+        <label for="cEmail">Email Address <span class="req">*</span></label>
+        <input type="email" id="cEmail" required placeholder="you@example.com">
+      </div>
+      <div class="field">
+        <label for="cSubject">Subject <span class="req">*</span></label>
+        <select id="cSubject" required>
+          <option value="">Select a topic</option>
+          <option>General Inquiry</option>
+          <option>Report an Issue</option>
+          <option>Suggest a Resource</option>
+          <option>Partnership</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cMessage">Message <span class="req">*</span></label>
+        <textarea id="cMessage" rows="5" required placeholder="Tell us how we can help..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-quote">&ldquo;Same students. Bigger opportunities.&rdquo;</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="contact.html">Support</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const form = e.target;
+    let valid = true;
+    form.querySelectorAll('[required]').forEach((f) => {
+      if (!f.value.trim()) { valid = false; f.style.borderColor = '#B3261E'; }
+      else { f.style.borderColor = ''; }
+    });
+    if (valid) {
+      form.reset();
+      alert('Thanks! Your message has been sent — we will get back to you soon.');
+    }
+  });
+</script>
+</body>
+</html>
