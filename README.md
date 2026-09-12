@@ -1,1 +1,0 @@
-# SmartResources Hub
