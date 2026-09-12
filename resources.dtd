@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =========================================================
+     SmartResources Hub — resources.dtd
+     Practical No. 4: XML Data Organization & Modeling
+     Enforces element structure, required attributes, and
+     data integrity for resources.xml
+     ========================================================= -->
+
+<!ELEMENT resources (item+)>
+
+<!ELEMENT item (name, category, scope, status, benefit, eligibility, provider, applyUrl)>
+<!ATTLIST item
+    id ID #REQUIRED
+    featured (true|false) "false"
+>
+
+<!ELEMENT name (#PCDATA)>
+
+<!-- category: Government Scheme | Student Discount | AI & Tech Tool | Scholarship | Internship | Learning Resource -->
+<!ELEMENT category (#PCDATA)>
+
+<!-- scope: Central | State | Global | India -->
+<!ELEMENT scope (#PCDATA)>
+
+<!-- status: Active | Closing Soon | Closed -->
+<!ELEMENT status (#PCDATA)>
+
+<!ELEMENT benefit (#PCDATA)>
+
+<!ELEMENT eligibility (#PCDATA)>
+
+<!ELEMENT provider (#PCDATA)>
+
+<!ELEMENT applyUrl (#PCDATA)>
