@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources SYSTEM "resources.dtd">
+<!-- =========================================================
+     SmartResources Hub — resources.xml
+     Practical No. 4: Self-describing data catalog
+     Validated against resources.dtd
+     ========================================================= -->
+<resources>
+
+  <!-- ===================== GOVERNMENT SCHEMES ===================== -->
+  <item id="gov001" featured="true">
+    <name>PM Vidyalaxmi Scheme</name>
+    <category>Government Scheme</category>
+    <scope>Central</scope>
+    <status>Active</status>
+    <benefit>Collateral-free education loan up to Rs. 10 Lakhs with interest subvention for higher education</benefit>
+    <eligibility>Admission to top-ranked higher education institutions (UG/PG/Professional)</eligibility>
+    <provider>Ministry of Education, Government of India</provider>
+    <applyUrl>https://www.vidyalaxmi.co.in</applyUrl>
+  </item>
+
+  <item id="gov002">
+    <name>Post-Matric Scholarship (SC/ST/OBC)</name>
+    <category>Government Scheme</category>
+    <scope>Central</scope>
+    <status>Active</status>
+    <benefit>Tuition reimbursement plus monthly maintenance allowance via the National Scholarship Portal</benefit>
+    <eligibility>SC/ST/OBC students, Class 11 to PhD, family income under Rs. 2.5 Lakhs per year</eligibility>
+    <provider>National Scholarship Portal (NSP)</provider>
+    <applyUrl>https://scholarships.gov.in</applyUrl>
+  </item>
+
+  <item id="gov003">
+    <name>AICTE Pragati Scholarship for Girls</name>
+    <category>Government Scheme</category>
+    <scope>Central</scope>
+    <status>Active</status>
+    <benefit>Rs. 50,000 per annum for female students enrolled in technical degree or diploma programs</benefit>
+    <eligibility>Girls in AICTE-approved technical programmes, family income under Rs. 8 Lakhs</eligibility>
+    <provider>AICTE</provider>
+    <applyUrl>https://www.aicte-india.org/schemes/students-development-schemes</applyUrl>
+  </item>
+
+  <item id="gov004">
+    <name>Rajarshi Shahu Maharaj Scholarship (EBC)</name>
+    <category>Government Scheme</category>
+    <scope>State</scope>
+    <status>Active</status>
+    <benefit>50% tuition and examination fee waiver for economically backward students</benefit>
+    <eligibility>Family income under Rs. 8 LPA, Maharashtra domicile, via MahaDBT</eligibility>
+    <provider>Government of Maharashtra</provider>
+    <applyUrl>https://mahadbt.maharashtra.gov.in</applyUrl>
+  </item>
+
+  <item id="gov005">
+    <name>Central Sector Scheme (CSSS)</name>
+    <category>Government Scheme</category>
+    <scope>Central</scope>
+    <status>Closing Soon</status>
+    <benefit>Rs. 10,000 - 20,000 per year merit-cum-means financial aid for college students</benefit>
+    <eligibility>Top 20th percentile in Class 12 boards, family income under Rs. 8 Lakhs</eligibility>
+    <provider>Department of Higher Education</provider>
+    <applyUrl>https://scholarships.gov.in</applyUrl>
+  </item>
+
+  <item id="gov006">
+    <name>National Scholarship Portal</name>
+    <category>Scholarship</category>
+    <scope>Central</scope>
+    <status>Active</status>
+    <benefit>Multiple central and state scholarships for meritorious and disadvantaged students</benefit>
+    <eligibility>Eligible category students across income and merit criteria</eligibility>
+    <provider>Ministry of Education, Government of India</provider>
+    <applyUrl>https://scholarships.gov.in</applyUrl>
+  </item>
+
+  <!-- ===================== STUDENT DISCOUNTS ===================== -->
+  <item id="disc001" featured="true">
+    <name>GitHub Student Developer Pack</name>
+    <category>Student Discount</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Free GitHub Copilot, JetBrains suite, cloud credits (Azure, DigitalOcean) and free domains</benefit>
+    <eligibility>Students aged 13+ enrolled in a degree or diploma-granting course, verified with school email</eligibility>
+    <provider>GitHub Education</provider>
+    <applyUrl>https://education.github.com/students</applyUrl>
+  </item>
+
+  <item id="disc002">
+    <name>Adobe Creative Cloud Student Discount</name>
+    <category>Student Discount</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Over 60% discount on Photoshop, Illustrator, Premiere Pro and the entire CC suite</benefit>
+    <eligibility>Verified students with a valid school email or student ID</eligibility>
+    <provider>Adobe</provider>
+    <applyUrl>https://www.adobe.com/creativecloud/buy/students.html</applyUrl>
+  </item>
+
+  <item id="disc003">
+    <name>Notion for Education</name>
+    <category>Student Discount</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Free Personal Plus / Pro plan with unlimited file uploads</benefit>
+    <eligibility>Valid academic email (.edu / .ac.in), while enrolled</eligibility>
+    <provider>Notion Labs</provider>
+    <applyUrl>https://www.notion.com/product/education</applyUrl>
+  </item>
+
+  <item id="disc004">
+    <name>Spotify Premium Student</name>
+    <category>Student Discount</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>50% discounted monthly rate for verified college students, up to 4 years</benefit>
+    <eligibility>SheerID-verified enrolled student</eligibility>
+    <provider>Spotify</provider>
+    <applyUrl>https://www.spotify.com/student/</applyUrl>
+  </item>
+
+  <item id="disc005">
+    <name>Amazon Prime Student</name>
+    <category>Student Discount</category>
+    <scope>India</scope>
+    <status>Active</status>
+    <benefit>Six months free, then 50% off Prime — free delivery, Prime Video and shopping deals</benefit>
+    <eligibility>Verified student with a valid school/college email</eligibility>
+    <provider>Amazon</provider>
+    <applyUrl>https://www.amazon.in/amazonprime</applyUrl>
+  </item>
+
+  <item id="disc006">
+    <name>Canva for Education</name>
+    <category>Student Discount</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Free premium Canva Pro access for verified students and educators</benefit>
+    <eligibility>Students with a valid email ID, SheerID verification</eligibility>
+    <provider>Canva</provider>
+    <applyUrl>https://www.canva.com/education/</applyUrl>
+  </item>
+
+  <!-- ===================== AI & TECH TOOLS ===================== -->
+  <item id="ai001">
+    <name>Google Gemini</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Multimodal AI for research, document synthesis and Google Workspace integration; 12 months free AI Pro with a .edu email</benefit>
+    <eligibility>Open to all learners; extended plan for verified students</eligibility>
+    <provider>Google</provider>
+    <applyUrl>https://gemini.google.com</applyUrl>
+  </item>
+
+  <item id="ai002" featured="true">
+    <name>ChatGPT (OpenAI)</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Academic tutoring, code troubleshooting and concept explanations, free on GPT-4o-mini</benefit>
+    <eligibility>Open to all learners</eligibility>
+    <provider>OpenAI</provider>
+    <applyUrl>https://chat.openai.com</applyUrl>
+  </item>
+
+  <item id="ai003">
+    <name>Microsoft Copilot</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Web-grounded research with direct citations and Edge/Office integration</benefit>
+    <eligibility>Open to all learners, free web, desktop and mobile access</eligibility>
+    <provider>Microsoft</provider>
+    <applyUrl>https://copilot.microsoft.com</applyUrl>
+  </item>
+
+  <item id="ai004">
+    <name>NotebookLM</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Grounded study assistant that turns uploaded course notes and lecture PDFs into synthesis guides</benefit>
+    <eligibility>Free with any Google account</eligibility>
+    <provider>Google</provider>
+    <applyUrl>https://notebooklm.google.com</applyUrl>
+  </item>
+
+  <item id="ai005">
+    <name>Perplexity AI</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Search-grounded AI delivering real-time answers with direct academic source citations</benefit>
+    <eligibility>Open to all learners; free unlimited searches</eligibility>
+    <provider>Perplexity</provider>
+    <applyUrl>https://www.perplexity.ai</applyUrl>
+  </item>
+
+  <item id="ai006">
+    <name>GitHub Copilot</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>In-editor AI code completion and debugging, free via the Student Developer Pack</benefit>
+    <eligibility>Verified students via .edu/.ac.in email</eligibility>
+    <provider>GitHub</provider>
+    <applyUrl>https://github.com/features/copilot</applyUrl>
+  </item>
+
+  <item id="ai007">
+    <name>Grammarly</name>
+    <category>AI &amp; Tech Tool</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Free automated grammar checking, spelling fixes and conciseness suggestions for reports</benefit>
+    <eligibility>Open to all learners</eligibility>
+    <provider>Grammarly Inc.</provider>
+    <applyUrl>https://www.grammarly.com</applyUrl>
+  </item>
+
+  <!-- ===================== INTERNSHIPS & LEARNING ===================== -->
+  <item id="int001">
+    <name>AICTE Internship Portal</name>
+    <category>Internship</category>
+    <scope>India</scope>
+    <status>Active</status>
+    <benefit>Industry exposure and hands-on experience across approved internships</benefit>
+    <eligibility>Students from AICTE-approved institutions</eligibility>
+    <provider>AICTE</provider>
+    <applyUrl>https://internship.aicte-india.org</applyUrl>
+  </item>
+
+  <item id="learn001">
+    <name>Google Career Certificates</name>
+    <category>Learning Resource</category>
+    <scope>Global</scope>
+    <status>Active</status>
+    <benefit>Job-ready professional certificates with flexible, self-paced learning</benefit>
+    <eligibility>Open to all learners; free and paid tracks</eligibility>
+    <provider>Google</provider>
+    <applyUrl>https://grow.google/certificates/</applyUrl>
+  </item>
+
+</resources>
