@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartResources Hub — More Opportunities. A Brighter You.</title>
+<meta name="description" content="Your one-stop platform for government schemes, student discounts and powerful AI tools.">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ===== Header ===== -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span class="brand-text">
+        <h1>SmartResources Hub</h1>
+        <div class="brand-tagline">LEARN &middot; APPLY &middot; GROW</div>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" class="active">Home</a>
+      <a href="recommendations.html">Resources</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-3.5-3.5"/></svg>
+      </button>
+      <a href="auth.html" class="btn btn-primary">Login</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ===== Hero ===== -->
+  <section class="container" style="padding-top:56px;">
+    <div style="display:grid; grid-template-columns: 1.05fr 0.95fr; gap:48px; align-items:center;">
+      <div>
+        <p style="letter-spacing:0.12em; font-weight:600; color:var(--primary); font-size:0.8rem; margin-bottom:14px;">FOR A BRIGHTER TOMORROW</p>
+        <h1 style="font-size:3.1rem; margin-bottom:18px;">More Opportunities.<br>A Brighter You.</h1>
+        <p style="font-size:1.1rem; color:var(--text-muted); max-width:44ch; margin-bottom:28px;">
+          Your one-stop platform for government schemes, student discounts and powerful tools — all in one place.
+        </p>
+
+        <form class="input-icon-wrap" role="search" style="display:flex; gap:12px; margin-bottom:28px;" action="recommendations.html" method="get">
+          <div style="position:relative; flex:1;">
+            <svg class="leading" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-3.5-3.5"/></svg>
+            <input type="text" name="q" placeholder="Search for schemes, tools, discounts..." style="padding:16px 16px 16px 42px; border-radius:var(--radius-sm); border:1px solid var(--border-card); width:100%; font-size:0.98rem; background:var(--bg-card);">
+          </div>
+          <button type="submit" class="btn btn-primary" style="padding:0 22px;" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-3.5-3.5"/></svg>
+          </button>
+        </form>
+
+        <div class="grid-3" style="gap:14px; margin-bottom:32px;">
+          <a class="card" href="recommendations.html?category=government-scheme" style="padding:16px; display:flex; gap:12px; align-items:center;">
+            <span class="resource-icon" style="background:var(--badge-gov-bg); color:var(--badge-gov-txt); margin:0;">&#127963;</span>
+            <span>
+              <strong style="display:block; font-size:0.95rem;">Government Schemes</strong>
+              <span class="muted" style="font-size:0.82rem;">Find financial support</span>
+            </span>
+          </a>
+          <a class="card" href="recommendations.html?category=student-discount" style="padding:16px; display:flex; gap:12px; align-items:center;">
+            <span class="resource-icon" style="background:var(--badge-disc-bg); color:var(--badge-disc-txt); margin:0;">&#127991;</span>
+            <span>
+              <strong style="display:block; font-size:0.95rem;">Student Discounts</strong>
+              <span class="muted" style="font-size:0.82rem;">Save more, do more</span>
+            </span>
+          </a>
+          <a class="card" href="recommendations.html?category=ai-tool" style="padding:16px; display:flex; gap:12px; align-items:center;">
+            <span class="resource-icon" style="background:var(--badge-ai-bg); color:var(--badge-ai-txt); margin:0;">&#128187;</span>
+            <span>
+              <strong style="display:block; font-size:0.95rem;">AI &amp; Tech Tools</strong>
+              <span class="muted" style="font-size:0.82rem;">Boost your productivity</span>
+            </span>
+          </a>
+        </div>
+
+        <div style="display:flex; gap:40px;">
+          <div><h2 style="font-size:1.9rem; margin-bottom:2px;">500+</h2><span class="muted">Resources</span></div>
+          <div><h2 style="font-size:1.9rem; margin-bottom:2px;">1 Platform</h2><span class="muted">All Opportunities</span></div>
+          <div><h2 style="font-size:1.9rem; margin-bottom:2px;">A Brighter</h2><span class="muted">Student Community</span></div>
+        </div>
+      </div>
+
+      <div style="position:relative; text-align:center;">
+        <img src="images/hero-illustration.png" alt="Illustration of a student with a backpack looking at a signpost pointing to Government Schemes, Student Discounts, AI Tools and A Brighter You" style="max-width:520px; margin:0 auto;">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Explore by Category ===== -->
+  <section class="container" style="padding:48px 32px 64px;">
+    <div class="card" style="padding:32px;">
+      <div class="section-title">
+        <div>
+          <h2>Explore by Category</h2>
+          <p class="muted" style="margin:0;">Find the right opportunities for your journey.</p>
+        </div>
+        <a class="view-all" href="recommendations.html">View All Resources
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="grid-3">
+        <a class="resource-card" href="recommendations.html?category=government-scheme">
+          <div class="resource-icon" style="background:var(--badge-gov-bg); color:var(--badge-gov-txt);">&#127963;</div>
+          <h3>Government Schemes</h3>
+          <p class="desc">Scholarships, grants and welfare programs from central and state governments.</p>
+        </a>
+        <a class="resource-card" href="recommendations.html?category=student-discount">
+          <div class="resource-icon" style="background:var(--badge-disc-bg); color:var(--badge-disc-txt);">&#127991;</div>
+          <h3>Student Discounts</h3>
+          <p class="desc">Exclusive student offers on software, subscriptions and more.</p>
+        </a>
+        <a class="resource-card" href="recommendations.html?category=ai-tool">
+          <div class="resource-icon" style="background:var(--badge-ai-bg); color:var(--badge-ai-txt);">&#128187;</div>
+          <h3>AI &amp; Tech Tools</h3>
+          <p class="desc">Powerful tools to help you learn, create and stay productive.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span>
+        <strong style="display:block; font-family:var(--font-serif); font-size:1.05rem;">SmartResources Hub</strong>
+        <span style="font-size:0.75rem; letter-spacing:0.04em; opacity:0.85;">Learn &middot; Apply &middot; Grow</span>
+      </span>
+    </div>
+    <p class="footer-quote">&ldquo;Same students. Bigger opportunities.&rdquo;</p>
+    <div class="footer-socials" aria-label="Social media">
+      <a href="#" aria-label="GitHub">&#128187;</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="Instagram">&#128247;</a>
+      <a href="#" aria-label="YouTube">&#9654;</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="contact.html">Support</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
